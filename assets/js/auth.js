@@ -30,3 +30,4 @@ function register() {
     alert('Preencha todos os campos!');
   }
 }
+// olaaaa
