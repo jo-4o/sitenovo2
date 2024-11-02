@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard - Sistema de Demandas</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Menu</h2>
+    <button class="menu-item active" onclick="navigate('home')">Início</button>
+    <button class="menu-item" onclick="navigate('demands')">Demandas</button>
+    <button class="menu-item" onclick="navigate('profile')">Perfil</button>
+    <button class="menu-item" onclick="navigate('settings')">Configurações</button>
+  </div>
+
+  <div class="main-content" id="content">
+    <!-- Conteúdo da aba selecionada -->
+  </div>
+
+  <script src="assets/js/ui.js"></script>
+  <div id="demandModal" class="modal">
+    <div class="modal-content">
+      <!-- O conteúdo do modal será inserido dinamicamente pelo JavaScript -->
+    </div>
+  </div>  
+</body>
+</html>
